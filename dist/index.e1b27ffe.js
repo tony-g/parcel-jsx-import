@@ -618,12 +618,12 @@ module.exports = require('./cjs/react-refresh-runtime.development.js');
     exports.setSignature = setSignature;
 })();
 
-},{}],"gT4u9":[function(require,module,exports) {
+},{}],"90ZSn":[function(require,module,exports) {
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "4a236f9275d0a351";
-module.bundle.HMR_BUNDLE_ID = "e91ee9189978ec32";
+module.bundle.HMR_BUNDLE_ID = "760be975e1b27ffe";
 "use strict";
 function _createForOfIteratorHelper(o, allowArrayLike) {
     var it;
@@ -936,11 +936,11 @@ function hmrAcceptRun(bundle, id) {
     acceptedAssets[id] = true;
 }
 
-},{}],"ipvmp":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$32f6 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{}],"dB8et":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$607b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$32f6.prelude(module);
+$parcel$ReactRefreshHelpers$607b.prelude(module);
 
 try {
 var _jsxRuntime = require("react/jsx-runtime");
@@ -949,25 +949,25 @@ var _layout = require("./layout");
 var _widget = require("./widget");
 _reactDom.render(/*#__PURE__*/ _jsxRuntime.jsx(_layout.Layout._widget.WidgetRed, {
     __source: {
-        fileName: "src/index.tsx",
+        fileName: "src/index.jsx",
         lineNumber: 6
     },
     __self: undefined,
     children: /*#__PURE__*/ _jsxRuntime.jsx(_widget.WidgetRed, {
         __source: {
-            fileName: "src/index.tsx",
+            fileName: "src/index.jsx",
             lineNumber: 7
         },
         __self: undefined
     })
 }), document.getElementById('root'));
 
-  $parcel$ReactRefreshHelpers$32f6.postlude(module);
+  $parcel$ReactRefreshHelpers$607b.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"6Ds2u","react-dom":"afyCw","./layout":"jPJHn","./widget":"bxlIM","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"9pz13"}],"6Ds2u":[function(require,module,exports) {
+},{"react/jsx-runtime":"6Ds2u","react-dom":"afyCw","./layout":"bxjLj","./widget":"2jpXA","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"9pz13"}],"6Ds2u":[function(require,module,exports) {
 'use strict';
 module.exports = require('./cjs/react-jsx-runtime.development.js');
 
@@ -22725,11 +22725,11 @@ module.exports = require('./cjs/scheduler-tracing.development.js');
     exports.unstable_wrap = unstable_wrap;
 })();
 
-},{}],"jPJHn":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$320f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{}],"bxjLj":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$2ae3 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$320f.prelude(module);
+$parcel$ReactRefreshHelpers$2ae3.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -22737,43 +22737,27 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Layout", ()=>Layout
 );
 var _jsxRuntime = require("react/jsx-runtime");
-function WidgetBlue({ children  }) {
-    return(/*#__PURE__*/ _jsxRuntime.jsx("div", {
-        style: {
-            backgroundColor: 'blue'
-        },
-        __source: {
-            fileName: "src/layout.tsx",
-            lineNumber: 2
-        },
-        __self: this,
-        children: children
-    }));
-}
-_c1 = WidgetBlue;
 function WidgetRed({ children  }) {
     return(/*#__PURE__*/ _jsxRuntime.jsx("div", {
         style: {
             backgroundColor: 'red'
         },
         __source: {
-            fileName: "src/layout.tsx",
-            lineNumber: 6
+            fileName: "src/layout.jsx",
+            lineNumber: 2
         },
         __self: this,
         children: children
     }));
 }
-_c2 = WidgetRed;
+_c = WidgetRed;
 const Layout = {
-    WidgetBlue,
     WidgetRed
 };
-var _c1, _c2;
-$RefreshReg$(_c1, "WidgetBlue");
-$RefreshReg$(_c2, "WidgetRed");
+var _c;
+$RefreshReg$(_c, "WidgetRed");
 
-  $parcel$ReactRefreshHelpers$320f.postlude(module);
+  $parcel$ReactRefreshHelpers$2ae3.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
@@ -22928,11 +22912,11 @@ function registerExportsForReactRefresh(module) {
     }
 }
 
-},{"react-refresh/runtime":"aeH4U"}],"bxlIM":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$d2c7 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react-refresh/runtime":"aeH4U"}],"2jpXA":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$027b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$d2c7.prelude(module);
+$parcel$ReactRefreshHelpers$027b.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -22947,7 +22931,7 @@ function WidgetRed() {
             color: 'red'
         },
         __source: {
-            fileName: "src/widget.tsx",
+            fileName: "src/widget.jsx",
             lineNumber: 3
         },
         __self: this,
@@ -22958,11 +22942,11 @@ _c = WidgetRed;
 var _c;
 $RefreshReg$(_c, "WidgetRed");
 
-  $parcel$ReactRefreshHelpers$d2c7.postlude(module);
+  $parcel$ReactRefreshHelpers$027b.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"6Ds2u","@parcel/transformer-js/src/esmodule-helpers.js":"ciiiV","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"9pz13"}]},["emU3S","gT4u9","ipvmp"], "ipvmp", "parcelRequireb505")
+},{"react/jsx-runtime":"6Ds2u","@parcel/transformer-js/src/esmodule-helpers.js":"ciiiV","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"9pz13"}]},["emU3S","90ZSn","dB8et"], "dB8et", "parcelRequireb505")
 
-//# sourceMappingURL=index.9978ec32.js.map
+//# sourceMappingURL=index.e1b27ffe.js.map
